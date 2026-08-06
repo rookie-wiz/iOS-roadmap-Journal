@@ -183,6 +183,8 @@ print(newString.lowercased())
 
 if newString.contains("Bleach") {
     print("Yes it does ")
+}else {
+    print ("No Substring")
 }
 
 if newString.hasPrefix("Blea"){
