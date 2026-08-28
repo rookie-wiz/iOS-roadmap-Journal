@@ -29,12 +29,14 @@ if(age >= 18){
 
 // Task2 : Print Whether the number is positive or negative?
 
-let num = 20
+var num  = 0
 
-if (num >= 0 ){
-    print ("The \(num) is positive")
-}else {
-    print("The \(num) is negative")
+if num > 0 {
+    print("The num is positive")
+} else if num < 0 {
+    print("The num is Negative ")
+} else {
+    print("The num is zero.")
 }
 
 // Task3 : Check Even or Odd num :
@@ -393,7 +395,7 @@ if let email = email {
 // Variable Naming Convention in swift : lowercamelcase for vaiables and constants such as a , b , operatorSymbol
 // Uppercase First is Reserved for the types such as String , Int , your own struct/class names
 
-// Liting errors : Linter tool helps to maintain a real code base to follow some coding style and patterns to avoid confusion , potential bugs
+// Linting errors : Linter tool helps to maintain a real code base to follow some coding style and patterns to avoid confusion , potential bugs
 // Linting error such as Naming convention , Consistent indentation , Unsed imports , Unused variables , Trailing whitespace , Missing Documentation Comments where required
 
 
